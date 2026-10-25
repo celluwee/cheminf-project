@@ -8,5 +8,5 @@ For regression we used the Lipophilicity dataset from MoleculeNet, loaded throug
 For classification we used the hERG_Karim dataset from the Therapeutics Data Commons. This dataset is a binary classification task. It has 13 445 molecules labelled as Ether-a-go-go-related gene (hERG) blockers (IC50 below 10 µM) or non-blockers, and blockers essentially represent cardiotoxic molecules.
 
 # Contributors
-Aleksandar Krivokapić 
+Aleksandar Krivokapić \
 Olga Piskunova
