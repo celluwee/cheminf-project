@@ -17,4 +17,4 @@ pip install PyTDC==1.1.15 --no-deps
 
 # Contributors
 Aleksandar Krivokapić \
-Olga Piskunova
+Olga Piskunova (aka celluwee)
