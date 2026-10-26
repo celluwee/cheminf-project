@@ -29,8 +29,7 @@ dependencies:
       # dependency of PyTDC, which is installed separately with --no-deps
       - fuzzywuzzy==0.18.0
 
-      # progress bars in the classification notebook (version not recorded,
-      # so left unpinned)
+      # progress bars in the classification notebook
       - tqdm
 
       - jupyter
