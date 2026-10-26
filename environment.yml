@@ -1,0 +1,36 @@
+name: cheminfo
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      # cheminformatics
+      - deepchem==2.8.0
+      - rdkit==2023.9.6
+
+      # scientific stack
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - scipy==1.17.1
+
+      # machine learning
+      - scikit-learn==1.9.1
+      - xgboost==3.4.2
+      - catboost==1.2.10
+
+      # plotting and evaluation
+      - matplotlib==3.11.2
+      - seaborn==0.13.2
+      - pycm==4.6
+
+      # dependency of PyTDC, which is installed separately with --no-deps
+      - fuzzywuzzy==0.18.0
+
+      # progress bars in the classification notebook (version not recorded,
+      # so left unpinned)
+      - tqdm
+
+      - jupyter
