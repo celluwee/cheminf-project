@@ -6,6 +6,21 @@ This is the final project for the Cheminformatics and Drug Design course. The id
 For regression we used the Lipophilicity dataset from MoleculeNet, loaded through DeepChem. It contains about 4 200 molecules from ChEMBL with measured logD values (octanol/water distribution at pH 7.4). Lipophilicity matters a lot in drug discovery because it affects solubility, membrane permeability and metabolism.
 
 For classification we used the hERG_Karim dataset from the Therapeutics Data Commons. This dataset is a binary classification task. It has 13 445 molecules labelled as Ether-a-go-go-related gene (hERG) blockers (IC50 below 10 µM) or non-blockers, and blockers essentially represent cardiotoxic molecules.
+
+# Repository structure
+
+The project is organized into two folders, one for each task:
+
+regression/
+- 01_regression_EDA.ipynb — exploratory data analysis of the Lipophilicity dataset.
+- 02_regression_baseline.ipynb — baseline and tuned classical models (fingerprints and RDKit descriptors).
+- 03_regression_gnn.ipynb — graph neural network (MPNN) for regression.
+
+classification/
+- Classification.ipynb — full classification pipeline for the hERG dataset (featurization, feature selection, models and evaluation).
+
+Within the regression folder the notebooks are meant to be read in the order above (EDA → baseline → GNN).
+
 # Setting up the environment
 
 All notebooks except the graph neural network were run locally under Python 3.11. The environment is specified in environment.yml and can be recreated with:
