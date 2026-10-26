@@ -1,5 +1,5 @@
 # Overview
-This is the final project for the Cheminformatics and Drug Design course. The idea was to take two molecular property prediction problems, one regression and one classification, and experiment with different molecular representations and model types. We started from simple classical models, improved them step by step and  tried a small graph neural network for the regression.
+This is the final project for the Cheminformatics and Drug Design course. The idea was to take two molecular property prediction problems, one regression and one classification, and experiment with different molecular representations and model types. We started from simple classical models, improved them step by step and implemented a small graph neural network for the regression, which led to best metrics.
 
 # Datasets
 
